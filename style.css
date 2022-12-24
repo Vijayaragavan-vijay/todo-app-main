@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --BrightBlue: hsl(220, 98%, 61%);
+    /* --CheckBackground: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%); */
+    --VeryLightGray: hsl(0, 0%, 98%);
+    --VeryLightGrayishBlue: hsl(236, 33%, 92%);
+    --LightGrayishBlue: hsl(233, 11%, 84%);
+    --DarkGrayishBlue: hsl(236, 9%, 61%);
+    --VeryDarkGrayishBlue: hsl(235, 19%, 35%);
+    --VeryDarkBlue: hsl(235, 21%, 11%);
+    --VeryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+    --LightGrayishBluestrong: hsl(234, 39%, 85%);
+    /* --LightGrayishBlue (hover): hsl(236, 33%, 92%); */
+    --DarkGrayishBluestrong: hsl(234, 11%, 52%);
+    --VeryDarkGrayishBluestrong: hsl(233, 14%, 35%);
+    --VeryDarkGrayishBlueExtrastrong: hsl(237, 14%, 26%);
+}
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+}
+
+#head {
+    background-image: url(images/bg-desktop-light.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    min-height: 400px;
+    position: relative;
+    background-color: transparent;
+    margin-top: -220px;
+    /* background-color: aqua; */
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 10px;
+}
+
+#themeimg {
+    width: 25px;
+    position: absolute;
+    height: 25px;
+    display: flex;
+    right: 10px;
+    transform: translateY(-25px);
+}
+
+#inputmsg {
+    width: 540px;
+    padding: 20px;
+    margin-top: 35px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding-left: 70px;
+}
+
+#input {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+#inputbtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 50px;
+    top: 55px;
+    visibility: hidden;
+    color: green;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#bottombar1 {
+    background-color: white;
+    width: 540px;
+    padding: 20px;
+    display: flex;
+    color: var(--DarkGrayishBluestrong);
+    justify-content: space-between;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 1px solid var(--DarkGrayishBlue);
+}
+
+#bottombar1>span {
+    text-decoration: none;
+    color: var(--DarkGrayishBluestrong);
+    cursor: pointer;
+}
+
+
+/* #clearbtn {
+    position: absolute;
+    right: 30px;
+} */
+
+#bottombar2 {
+    background-color: white;
+    width: 540px;
+    padding: 20px;
+    display: flex;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    justify-content: space-evenly;
+}
+
+#bottombar2>span {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--DarkGrayishBluestrong);
+    cursor: pointer;
+}
+
+.lists {
+    list-style: none;
+}
+
+.listlist {
+    background-color: var(--VeryLightGray);
+    width: 540px;
+    padding: 20px;
+    padding-left: 70px;
+    list-style: none;
+    border-bottom: 1px solid var(--DarkGrayishBlue);
+}
+
+.circle {
+    width: 27px;
+    height: 27px;
+    padding: 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 27%;
+    left: 4%;
+    /* background-color: black; */
+    border: 1px solid var(--VeryDarkGrayishBluestrong);
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+}
+
+.cross {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    cursor: pointer;
+}
+
+.gradient {
+    background-image: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    border: none;
+}
+
+.circle:hover {
+    box-shadow: 0px 0px 2px var(--VeryDarkGrayishBlue);
+}
