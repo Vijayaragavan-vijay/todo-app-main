@@ -31,3 +31,8 @@ Users should be able to:
 ![mobilebright](https://user-images.githubusercontent.com/95960286/209558083-548e8aa7-949f-4ec7-b09e-5c7797fcbf2d.png)
 
 ![mobiledark](https://user-images.githubusercontent.com/95960286/209558089-95fa161c-317f-4979-8028-51f88cde13fd.png)
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](todotoday-vijay.netlify.app)
